@@ -32,7 +32,7 @@ function CertificateContent({ cert, studentName }) {
             {cert.organization?.logo ? (
               <img src={`${api.defaults.baseURL.replace('/api', '')}/uploads/${cert.organization.logo.split('/').pop()}`} alt="Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             ) : (
-              <img src="/logo.png" alt="Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+              <img src="./logo.png" alt="Logo" className="w-16 h-16 md:w-20 md:w-20 object-contain" />
             )}
             <span className="font-sans text-lg md:text-2xl font-extrabold tracking-[0.25em] text-[#0c1d3a] text-center">
               {cert.organization?.name ? cert.organization.name.toUpperCase() : "RAVEN ACE"}

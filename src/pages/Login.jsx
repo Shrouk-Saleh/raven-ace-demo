@@ -54,7 +54,7 @@ function Login() {
           {/* Brand */}
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-4 mb-2">
-              <img src="/logo.png" alt="Raven ACE Logo" className="w-24 h-24 object-contain" />
+              <img src="./logo.png" alt="Raven ACE Logo" className="w-24 h-24 object-contain" />
               <h1 className="text-display-sm text-on-surface m-0 leading-none">Raven ACE</h1>
             </div>
             <p className="text-body-md text-on-surface-variant">AI Certification & Examination</p>

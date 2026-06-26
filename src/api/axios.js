@@ -39,7 +39,7 @@ const api = {
     if (url.includes('/organization/instructors')) return { data: { data: { instructors: mockOrgInstructors } } };
     if (url.includes('/organization/students')) return { data: { data: { students: mockOrgStudents } } };
     if (url.includes('/organization/subscription')) return { data: { data: mockOrgSubscription } };
-    if (url.includes('/organization/profile')) return { data: { data: { name: 'Acme University', logo: '/logo.png' } } };
+    if (url.includes('/organization/profile')) return { data: { data: { name: 'Acme University', logo: './logo.png' } } };
 
     // Admin
     if (url.includes('/admin/dashboard')) return { data: { data: mockAdminStats } };

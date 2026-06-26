@@ -113,7 +113,7 @@ function Sidebar() {
       <div className="px-6 mb-6">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 mb-1 group">
-            <img src="/logo.png" alt="Raven ACE Logo" className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" />
+            <img src="./logo.png" alt="Raven ACE Logo" className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" />
             <h2 className="text-h2 font-bold text-on-surface">Raven ACE</h2>
           </Link>
           <button
@@ -246,7 +246,7 @@ function Sidebar() {
           <span className="material-symbols-outlined">menu</span>
         </button>
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Raven ACE Logo" className="w-8 h-8 object-contain" />
+          <img src="./logo.png" alt="Raven ACE Logo" className="w-8 h-8 object-contain" />
           <span className="text-h3 font-bold text-on-surface">Raven ACE</span>
         </div>
         <Link to="/notifications" className="relative text-on-surface">

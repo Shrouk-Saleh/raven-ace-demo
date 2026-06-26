@@ -38,7 +38,7 @@ function Navbar() {
         
         {/* Brand */}
         <Link to="/" className="flex items-center gap-3 group">
-          <img src="/logo.png" alt="Raven ACE Logo" className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" />
+          <img src="./logo.png" alt="Raven ACE Logo" className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" />
           <div>
             <h1 className="text-lg font-bold tracking-tight text-white leading-none">Raven ACE</h1>
             <span className="text-[10px] text-blue-400 font-semibold tracking-wider uppercase">Interactive Demo</span>

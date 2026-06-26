@@ -6,29 +6,29 @@ export const mockUsers = {
     name: 'John Doe',
     email: 'john@raven-ace.edu',
     role: 'student',
-    profilePhoto: '/logo.png',
+    profilePhoto: './logo.png',
   },
   instructor: {
     _id: 'user-instructor',
     name: 'Dr. Alice Vance',
     email: 'alice@raven-ace.edu',
     role: 'instructor',
-    profilePhoto: '/logo.png',
+    profilePhoto: './logo.png',
   },
   organization: {
     _id: 'user-org',
     name: 'Acme University',
     email: 'admin@acme.edu',
     role: 'organization',
-    profilePhoto: '/logo.png',
-    logo: '/logo.png',
+    profilePhoto: './logo.png',
+    logo: './logo.png',
   },
   admin: {
     _id: 'user-admin',
     name: 'System Admin',
     email: 'sysadmin@raven-ace.edu',
     role: 'admin',
-    profilePhoto: '/logo.png',
+    profilePhoto: './logo.png',
   }
 };
 
@@ -152,7 +152,7 @@ export const mockCertificates = [
     student: mockUsers.student,
     score: 88,
     issuedAt: '2026-06-10T14:38:00.000Z',
-    organization: { name: 'Acme University', logo: '/logo.png' }
+    organization: { name: 'Acme University', logo: './logo.png' }
   },
   {
     _id: 'cert-2',
@@ -161,7 +161,7 @@ export const mockCertificates = [
     student: mockUsers.student,
     score: 95,
     issuedAt: '2026-06-15T10:25:00.000Z',
-    organization: { name: 'Acme University', logo: '/logo.png' }
+    organization: { name: 'Acme University', logo: './logo.png' }
   }
 ];
 

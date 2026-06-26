@@ -170,7 +170,7 @@ function Pricing() {
       <footer className="w-full bg-slate-950 border-t border-slate-800 py-12 px-6 text-slate-500 text-sm">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
+            <img src="./logo.png" alt="Logo" className="w-8 h-8 object-contain" />
             <span className="text-slate-300 font-bold text-base">Raven ACE</span>
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-slate-400 font-medium">

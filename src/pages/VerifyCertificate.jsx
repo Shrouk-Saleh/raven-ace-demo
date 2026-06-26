@@ -31,7 +31,7 @@ function CertificateContent({ cert, studentName }) {
             {cert.organization?.logo ? (
               <img src={`${IMAGE_BASE_URL}${cert.organization.logo}`} alt="Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             ) : (
-              <img src="/logo.png" alt="Logo" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+              <img src="./logo.png" alt="Logo" className="w-16 h-16 md:w-20 md:w-20 object-contain" />
             )}
             <span className="font-sans text-lg md:text-2xl font-extrabold tracking-[0.25em] text-[#0c1d3a] text-center">
               {cert.organization?.name ? cert.organization.name.toUpperCase() : "RAVEN ACE"}
@@ -129,7 +129,7 @@ function VerifyCertificate() {
           {/* Brand */}
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center mb-4">
-              <img src="/logo.png" alt="Raven ACE Logo" className="w-24 h-24 object-contain" />
+              <img src="./logo.png" alt="Raven ACE Logo" className="w-24 h-24 object-contain" />
             </div>
             <h1 className="text-h1 text-on-surface">Certificate Verification</h1>
             <p className="text-body-md text-on-surface-variant mt-1">Raven ACE — Official Verification Portal</p>
